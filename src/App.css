@@ -1,0 +1,104 @@
+:root {
+  --bg-color: #031321;
+  --primary-color: #219693;
+  --secondary-color: #255784;
+}
+
+.section {
+  height: 20vh;
+  background: #000;
+}
+
+h1 {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute !important;
+  top: 30% !important;
+  transform: translateY(-50%) translateX(-230px);
+  width: 100% !important;
+  text-align: center;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  letter-spacing: 1.5rem !important;
+}
+
+h1 span {
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+  /* animation-iteration-count: 10; */
+}
+
+video {
+  object-fit: cover;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+  }
+}
+
+h1 span:nth-child(1) {
+  animation-delay: 1s;
+}
+h1 span:nth-child(2) {
+  animation-delay: 1.5s;
+}
+h1 span:nth-child(3) {
+  animation-delay: 2s;
+}
+h1 span:nth-child(4) {
+  animation-delay: 2.5s;
+}
+h1 span:nth-child(5) {
+  animation-delay: 3s;
+}
+h1 span:nth-child(6) {
+  animation-delay: 3.5s;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-stack-overflow,
+.fa-github {
+  color: #219693 !important;
+  border: 0px solid black;
+  border-radius: 999px !important;
+}
+
+.fa-facebook:hover,
+.fa-linkedin:hover,
+.fa-stack-overflow:hover,
+.fa-github:hover {
+  box-shadow: 0 0 20px #3fe7e2, 0 0 80px #3fe7e2, 0 0 160px #3fe7e2,
+    0 0 320px #3fe7e2;
+  background: #3fe7e2 !important;
+  color: rgb(166, 202, 211) !important;
+}
+
+.content {
+  position: relative;
+  padding: 20px;
+}
+.box:hover .content h2 {
+  top: -100px;
+}
+
+.box h2 {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  margin: 0;
+  padding: 10px;
+  font-size: 7em;
+  color: rgba(63, 22, 60, 0.171);
+  transition: 0.5s;
+  z-index: 3;
+}

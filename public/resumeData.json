@@ -1,0 +1,139 @@
+{
+  "main": {
+    "name": "Ayushi Keshri",
+    "occupation": "Full Stack Developer",
+    "description": "Developing in Day, Debbugging at Night",
+    "image": "new.jpeg",
+    "bio": "My name is Ayushi, I'm a Full Stack ReactJS Developer. Currently I'm working at a Fintech Startup Company while also learning and grinding ",
+    "contactmessage": "Get in touch with me to for any amazing ideas you want on floors.",
+    "email": "keshri.ayushi10@gmail.com",
+    "phone": "+91 8604104636",
+    "address": {
+      "street": "764 Nagwara",
+      "city": "Bangalore",
+      "state": "Karantaka, India",
+      "zip": "560045"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "public/pdf/Ayushi-Keshri-Resume.pdf",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/ayukeshri",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ayushi-keshri/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "stack-overflow",
+        "url": "https://stackoverflow.com/users/11219171/ayushi-keshri",
+        "className": "fa fa-stack-overflow"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/KeshriAyushi22",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "BBD NIIT",
+        "degree": "Bachelors in Computer Science",
+        "graduated": "July 2018",
+        "description": "Graduated with Distinction"
+      }
+    ],
+    "work": [
+      {
+        "company": "Nearex Technology",
+        "title": "Associate Software Developer",
+        "years": "October 2018 - Present",
+        "description": "Creating Rest APIs and UI for payment simplifications. Sound Knowledge of React and Java ,Node js for Backend. Also have far as good debbuging skills. I was hired as a full stack developer by Nearex Technology, where I still work today. Since beginning my career there,I have been given the opportunity into Backend Payment API and then shifted to Frontend UI for the company. I am currently working towards my Certified Cloud certification while working as a full stack developer."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "70%"
+      },
+      {
+        "name": "CSS",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Java",
+        "level": "55%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      },
+      {
+        "name": "Node.js",
+        "level": "50%"
+      },
+      {
+        "name": "Jmeter Testing",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "React- Covid Tracker",
+        "category": "Build a Simple Covid Tracker using React hooks",
+        "image": "COVID-1.jpg",
+        "url": "https://youthful-lamport-199676.netlify.app",
+        "index": "01"
+      },
+      {
+        "title": "TO-DO LIST",
+        "category": "Just a Simple TO DO List using React Hooks and CSS",
+        "image": "todo.jpg",
+        "url": "https://goofy-noyce-97151f.netlify.app/",
+        "index": "02"
+      },
+      {
+        "title": "Home and Vehicle Automation",
+        "category": "APIs writtern in node.js (controller, validator,router) and used mongo atlas for db",
+        "image": "homeAutomation.jpg",
+        "url": "https://www.youtube.com/watch?v=XnoRtz_MxNM",
+        "index": "03"
+      },
+      {
+        "title": "Weather App",
+        "category": "Shows Weather as you type your location using open source api, Working for making it as Chrome Extension",
+        "image": "weather.jpg",
+        "url": "https://clever-spence-f9fc7e.netlify.app",
+        "index": "04"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "That your ways to work to meet the timeline is appreciative and always keep up the spirit high and be motivated",
+        "user": "Santosh Kumar Team Lead"
+      },
+      {
+        "text": "Said that I will surely work for something great, Just work hard and grasp the knowledge. I believe that I can do so much in technical field yet for the fact that I am still learning my hard ways.",
+        "user": "Satyam Kumar Naik Fellow Team Mate"
+      }
+    ]
+  }
+}
