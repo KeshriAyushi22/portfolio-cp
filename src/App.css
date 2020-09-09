@@ -10,8 +10,8 @@
 }
 
 h1 {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
   position: absolute !important;
   top: 30% !important;
   transform: translateY(-50%) translateX(-230px);
@@ -21,6 +21,12 @@ h1 {
   letter-spacing: 1.5rem !important;
 }
 
+@media only screen and (max-width: 767px) {
+  h1 {
+    font: 68px/1.1em "opensans-bold", sans-serif;
+    margin: 0 0 0 200px !important;
+  }
+}
 h1 span {
   opacity: 0;
   display: inline-block;

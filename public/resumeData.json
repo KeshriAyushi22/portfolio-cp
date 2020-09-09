@@ -2,19 +2,19 @@
   "main": {
     "name": "Ayushi Keshri",
     "occupation": "Full Stack Developer",
-    "description": "Developing in Day, Debbugging at Night",
+    "description": "Developing in Day, Debugging at Night",
     "image": "new.jpeg",
     "bio": "My name is Ayushi, I'm a Full Stack ReactJS Developer. Currently I'm working at a Fintech Startup Company while also learning and grinding ",
     "contactmessage": "Get in touch with me to for any amazing ideas you want on floors.",
     "email": "keshri.ayushi10@gmail.com",
-    "phone": "+91 8604104636",
+    "phone": "+91 7355941747",
     "address": {
-      "street": "764 Nagwara",
+      "street": "Athidi Ladies Pg Nagwara",
       "city": "Bangalore",
       "state": "Karantaka, India",
       "zip": "560045"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "",
     "resumedownload": "public/pdf/Ayushi-Keshri-Resume.pdf",
     "social": [
       {
@@ -129,10 +129,6 @@
       {
         "text": "That your ways to work to meet the timeline is appreciative and always keep up the spirit high and be motivated",
         "user": "Santosh Kumar Team Lead"
-      },
-      {
-        "text": "Said that I will surely work for something great, Just work hard and grasp the knowledge. I believe that I can do so much in technical field yet for the fact that I am still learning my hard ways.",
-        "user": "Satyam Kumar Naik Fellow Team Mate"
       }
     ]
   }
